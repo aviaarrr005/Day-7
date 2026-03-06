@@ -1,0 +1,12 @@
+Arrays:
+- An array is a collection of variables of the same data type stored in contiguous memory locations.
+- Arrays can be one-dimensional or multi-dimensional and jagged arrays (arrays of arrays -- diff no of columns in each row).
+- The size of an array is fixed and cannot be changed after it is created.
+
+Syntax:
+dataType[] arrayName = new dataType[size];
+Example:
+int[] numbers = new int[5];
+- Arrays can also be initialized with values at the time of declaration:
+int[] numbers = {1, 2, 3, 4, 5};   
+
